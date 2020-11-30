@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #303030;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #80031e solid !important;
+	overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+/*SECTION START*/
+.section {
+    padding: 3rem 1.5rem;
+    display: block;
+	background: transparent !important;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+	position: fixed;
+}
+/*SECTION END*/
+
+
+/*VIDEO START*/
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+/*VIDEO END*/

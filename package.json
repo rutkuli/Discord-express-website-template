@@ -1,0 +1,62 @@
+{
+    "name": "Express website template",
+    "version": "1.0",
+    "description": "Express website template",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "lint": "eslint . --ext .js",
+        "testcfg": "node scripts/verify-config.js"
+    },
+    "author": "RUTKULI",
+    "dependencies": {
+        "cookie-session": "^1.4.0",
+        "discord.js": "^12.5.1",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "express-mysql-session": "^2.1.4",
+        "express-session": "^1.17.1",
+        "path": "^0.12.7",
+        "utf8": "^3.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.5.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "commonjs": true,
+            "es6": true,
+            "node": true
+        },
+        "extends": "eslint:recommended",
+        "globals": {
+            "Atomics": "readonly",
+            "SharedArrayBuffer": "readonly"
+        },
+        "parserOptions": {
+            "ecmaVersion": 2020
+        },
+        "rules": {
+            "prefer-const": [
+                "error"
+            ],
+            "indent": [
+                "error",
+                "tab"
+            ],
+            "quotes": [
+                "error",
+                "double"
+            ],
+            "semi": [
+                "error",
+                "always"
+            ],
+            "linebreak-style": 0,
+            "require-atomic-updates": 0
+        }
+    },
+    "eslintIgnore": [
+        "website/public"
+    ]
+}
